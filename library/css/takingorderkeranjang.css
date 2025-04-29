@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    padding-bottom: 60px;
+    -webkit-user-select: none; 
+    -moz-user-select: none;   
+    -ms-user-select: none;    
+    user-select: none;   
+}
+
+.container {
+    max-width: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.margin {
+    padding: 15px;
+}
+
+.margin-fungsi {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.fungsi-kanan button:last-child {
+    background: #ff6b81;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.margin-judul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.margin-judul-kiri button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    padding: 5px;
+}
+
+.margin-judul-kanan {
+    flex: 1;
+}
+
+.margin-judul-atas h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.margin-judul-bawah p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.margin-pesanan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.margin-rangkuman-pesanan-kiri h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.margin-tambah-pesanan-kanan button {
+    background-color: transparent;
+    color: #0059ff !important;
+    cursor: pointer;
+    border: 2px solid #0059ff;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.margin-tambah-pesanan-kanan button:hover {
+    background-color: #0059ff;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(0, 89, 255, 0.2);
+}
+
+.margin-tambah-pesanan-kanan button:active {
+    transform: scale(0.98);
+}
+
+.margin-tambah-pesanan-kanan button i {
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+.Tambah-pesanan-kanan p {
+    font-size: 16px;
+    color: #FF6B00; 
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.margin-pesanan-customer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.margin-pesanan-customer > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-pesanan-customer-kiri {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.margin-pesanan-customer-menu-kanan-atas h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.margin-pesanan-customer-menu-kanan-bawah p {
+    font-size: 14px;
+    color: #0059ff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.margin-pesanan-customer-kanan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.margin-pesanan-customer-kanan-atas p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.margin-pesanan-customer-kanan-bawah button {
+    border: 1px solid rgb(31, 163, 53);
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.margin-pesanan-customer-kiri img {
+    width: 50px;
+    height: 50px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.margin-rekomanded {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.margin-rekomended-kiri p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+.margin-rekomanded {
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.recommended-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+}
+  
+.recommended-scroll {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    padding-bottom: 10px; 
+}
+  
+.recommended-scroll::-webkit-scrollbar {
+    display: none; 
+}
+  
+.recommended-item {
+    flex: 0 0 calc(33.333% - 10px); 
+    min-width: 200px; 
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 12px;
+    box-sizing: border-box;
+}
+  
+.item-text {
+    flex: 1;
+    padding-right: 10px;
+}
+  
+.item-name {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+  
+.item-price {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+  
+.current-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+  
+.old-price {
+    font-size: 14px;
+    color: #888;
+    text-decoration: line-through;
+}
+  
+.item-image img {
+    width: 80px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+    background: #f5f5f5;
+}
+
+.margin-total {
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 15px 0;
+}
+
+.margin-total-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.margin-total-kiri p {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.margin-total-kanan p {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+
+.margin-ppn-menu {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.margin-ppn-kiri p {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.margin-ppn-kanan p {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+
+.margin-alat-makanan {
+    display: none;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.margin-alat-makanan.visible {
+    display: flex !important; 
+}
+
+.margin-alat-makanan-kiri {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.margin-alat-makanan-tengah {
+    flex-grow: 1;
+}
+
+.margin-alat-makanan-tengah-atas h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.margin-alat-makanan-tengah-bawah p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.margin-alat-makanan-kanan input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #4CAF50;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    padding: 5px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.margin-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.margin-footer-kanan h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.margin-footer-kiri h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: black; 
+}
+
+.discount-message {
+    font-size: 14px;
+    color: #4CAF50; 
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.original-price {
+    font-size: 14px;
+    color: #888;
+    text-decoration: line-through;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.margin-footer-button button {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(31, 163, 53);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.margin-footer-button button:hover {
+    background-color: rgb(37, 143, 55);
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.margin-pesanan-customer-kanan-bawah {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.quantity-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: rgb(37, 143, 55);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: white;
+}
+
+.quantity-btn:hover {
+    background: rgb(35, 112, 48);
+}
+
+.quantity-btn:active {
+    transform: scale(0.95);
+}
+
+.quantity-value {
+    min-width: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.catatan-btn {
+    font-size: 14px;
+    color: #0059ff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.catatan-btn:hover {
+    color: #004499;
+}
+
+@media (max-width: 480px) {
+    .comment {
+        max-width: 100px;
+        font-size: 12px;
+    }
+    
+}

@@ -1,0 +1,380 @@
+{
+    "kwetiau goreng": {
+        "size": [
+            {"name": "telur", "price": 2000},
+            {"name": "daging babi", "price": 10000},
+            {"name": "pedas", "price": 0},
+            {"name": "ayam", "price": 10000}
+        ],
+        "notes": true
+    },
+    "Nasi ayam": {
+        "size": [
+            {"name": "telur", "price": 2000},
+            {"name": "daging babi", "price": 10000},
+            {"name": "pedas", "price": 0},
+            {"name": "ayam", "price": 10000}
+        ],
+        "notes": true
+    },
+    "Mie Goreng": {
+        "size": [
+            {"name": "telur", "price": 2000},
+            {"name": "daging babi", "price": 10000},
+            {"name": "pedas", "price": 0},
+            {"name": "ayam", "price": 10000}
+        ],
+        "notes": true
+    },
+    "Bihun Goreng": {
+        "size": [
+            {"name": "telur", "price": 2000},
+            {"name": "daging babi", "price": 10000},
+            {"name": "pedas", "price": 0},
+            {"name": "ayam", "price": 10000}
+        ],
+        "notes": true
+    },
+    "Ayam Goreng": {
+        "size": [
+            {"name": "dada", "price":0},
+            {"name": "paha", "price":0},
+            {"name": "sayap", "price":0}
+        ],
+        "notes": true
+    },
+    "Babi Goreng": {
+        "size": [
+            {"name": "sambal hijau", "price": 0},
+            {"name": "sambal merah", "price": 0},
+            {"name": "sambal matah", "price": 5000},
+            {"name": "Kaldu sup babi", "price": 10000}
+        ],
+        "notes": true
+    },
+    "Sapi Goreng": {
+        "size": [
+            {"name": "sambal hijau", "price": 0},
+            {"name": "sambal merah", "price": 0},
+            {"name": "sambal matah", "price": 5000},
+            {"name": "Kaldu sup sapi", "price": 10000}
+        ],
+        "notes": true
+    },
+    "Bawang Goreng":{
+        "size": [
+            {"name": "sambal hijau", "price": 0},
+            {"name": "sambal merah", "price": 0},
+            {"name": "sambal matah", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Petai Goreng": {
+        "size": [
+            {"name": "sambal hijau", "price": 0},
+            {"name": "sambal merah", "price": 0},
+            {"name": "sambal matah", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Mie Kuning Goreng": {
+       "size": [
+            {"name": "telur", "price": 2000},
+            {"name": "daging babi", "price": 10000},
+            {"name": "pedas", "price": 0},
+            {"name": "ayam", "price": 10000}
+        ],
+        "notes": true
+    },
+    "Pocari": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price": 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0}
+        ],
+        "notes": true  
+    },
+    "Soya": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price": 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0}
+        ],
+        "notes": true  
+    },
+    "Teh Bunga": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price": 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0}
+        ],
+        "notes": true  
+    },
+    "Sanford": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price": 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0}
+        ],
+        "notes": true  
+    },
+    "Teh Obeng": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0}
+        ],
+        "notes": true
+    },
+    "Teh Tarik Dingin": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Teh Tarik Panas": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Sirup Kuning": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000},
+            {"name": "es krim", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Sirup Merah": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000},
+            {"name": "es krim", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Teh O": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price": 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0}
+        ],
+        "notes": true  
+    },
+    "Kopi Susu Dingin":{
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Kopi Susu Panas":{
+        "size": [
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Kopi Dingin": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0}
+        ],
+        "notes": true
+    },
+    "Kopi Panas": {
+       "size": [
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0}
+        ],
+        "notes": true
+    },
+    "Jus Apel": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000},
+            {"name": "es krim", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Jus Mangga": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000},
+            {"name": "es krim", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Jus Naga":{
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000},
+            {"name": "es krim", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Jus Pisang":{
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000},
+            {"name": "es krim", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Coca Cola": {
+       "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000},
+            {"name": "es krim", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Sprite": {
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000},
+            {"name": "es krim", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Pepsi":{
+        "size": [
+            {"name": "normal ice", "price": 0},
+            {"name": "extra ice", "price" : 0},
+            {"name": "less ice", "price": 0},
+            {"name": "tanpa ice", "price": 0},
+            {"name": "normal sugar", "price": 0},
+            {"name": "less sugar", "price": 0},
+            {"name": "extra sugar", "price": 0},
+            {"name": "tanpa sugar", "price": 0},
+            {"name": "extra susu", "price": 5000},
+            {"name": "es krim", "price": 5000}
+        ],
+        "notes": true
+    },
+    "Kentang Goreng": {
+        "size": [
+            {"name": "saus cabae", "price": 0},
+            {"name": "sambal tomat", "price": 0}
+        ],
+        "notes": true
+    },
+    "Es Krim Oreo":{
+        "size": [
+            {"name": "oreo topping", "price": 3000},
+            {"name": "topping choco", "price": 3000}
+        ],
+        "notes": true
+    },
+    "Sandwich Buah": {
+        "size": [
+            {"name":"buah strawberry", "price": 0},
+            {"name":"buah blueberry", "price": 0},
+            {"name":"buah kiwi", "price": 0},
+            {"name":"buah mangga", "price": 0},
+            {"name":"buah jeruk", "price": 0}
+        ],
+        "notes": true
+    }
+}

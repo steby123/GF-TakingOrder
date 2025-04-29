@@ -1,0 +1,129 @@
+@media (max-width: 1024px) {
+    .menu-items {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-items,
+    .order-items {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    }
+    
+    .menu-item,
+    .order-item {
+        max-width: 100%; /* Allow items to take full width of their grid cell */
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-items,
+    .order-items {
+        grid-template-columns: repeat(2, 1fr); /* Tetap 2 items per row untuk layar kecil */
+        gap: 12px; /* Sedikit lebih besar gap untuk mobile */
+    }
+    
+    .menu-item img,
+    .order-item img {
+        height: 120px; /* Sedikit lebih kecil untuk mobile */
+    }
+    
+    .menu-info h3,
+    .item-info h3 {
+        font-size: 14px; /* Sedikit lebih besar untuk keterbacaan di mobile */
+    }
+    
+    .add-menu-btn,
+    .add-btn {
+        padding: 6px 10px; /* Sedikit lebih besar untuk touch friendly */
+        font-size: 12px;
+    }
+
+    .card-container {
+        margin-top: -10%; /* Margin -10% hanya pada layar lebih besar */
+    }
+}
+/* Responsive Design */
+@media (max-width: 576px) {
+    .cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .navigation-card-content button {
+        padding: 12px;
+        font-size: 13px;
+    }
+}
+
+/* Responsive Breakpoints */
+@media (min-width: 576px) {
+    .margin-gambar {
+        height: 250px;
+    }
+    
+    .horizontal-card {
+        flex-direction: row; /* Kembali ke horizontal di tablet */
+    }
+    
+    .card-image {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+    
+    .margin-gambar {
+        height: 300px;
+    }
+    
+    .horizontal-card {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fungsi-kiri {
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 10px;
+      max-width: 100%;
+      margin-top: -2%;
+    }
+  }
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+    
+    .margin-gambar {
+        height: 350px;
+    }
+}
+
+/* Perbaikan untuk layar sangat kecil (mobile) */
+@media (max-width: 400px) {
+    .fungsi-kanan button:last-child {
+        padding: 6px 10px;
+        font-size: 12px;
+        margin-top: -5%;
+    }
+    
+    .card-header h3 {
+        font-size: 14px;
+    }
+    
+    .location, .delivery-info {
+        font-size: 11px;
+    }
+    
+    .rating-badge {
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+}

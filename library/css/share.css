@@ -1,0 +1,195 @@
+.share-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.share-modal:not(.hidden) {
+    opacity: 1;
+    visibility: visible;
+}
+
+.share-modal .modal-content {
+    background: #ffffff;
+    padding: 0;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 340px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    animation: modalSlideUp 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+
+@keyframes modalSlideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modal-header {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.close-share-x {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.close-share-x:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.modal-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.share-option {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 0;
+    border: none;
+    border-radius: 12px;
+    background: #ffffff;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f0f0f0;
+}
+
+.share-option:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: #f9f9f9;
+}
+
+.share-option:active {
+    transform: translateY(0);
+}
+
+.share-option i {
+    margin-right: 12px;
+    font-size: 1.4rem;
+    width: 24px;
+    text-align: center;
+}
+
+#whatsappShare {
+    background: #25D366;
+    color: white;
+    border: none;
+}
+
+#whatsappShare i {
+    color: white;
+}
+
+#whatsappShare:hover {
+    background: #128C7E;
+}
+
+#clipboardShare {
+    background: #2196F3;
+    color: white;
+    border: none;
+}
+
+#clipboardShare i {
+    color: white;
+}
+
+#clipboardShare:hover {
+    background: #1976D2;
+}
+
+#telephoneShare {
+    background: #FF9800;
+    color: white;
+    border: none;
+}
+
+#telephoneShare i {
+    color: white;
+}
+
+#telephoneShare:hover {
+    background: #F57C00;
+}
+
+.share-notification {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    z-index: 1001;
+    opacity: 1;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.share-notification::before {
+    content: "✓";
+    font-size: 1.2rem;
+}
+
+.share-notification.fade-out {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+}

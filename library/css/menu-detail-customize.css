@@ -1,0 +1,97 @@
+/* Container utama */
+.customize-container {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    margin: 15px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Setiap opsi kustomisasi */
+.margin-customize {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.2s;
+}
+
+/* Bagian kiri (checkbox + label) */
+.margin-customize-kiri {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* Style checkbox modern */
+.margin-customize-kiri input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 12px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.margin-customize-kiri input[type="checkbox"]:checked {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.margin-customize-kiri input[type="checkbox"]:checked::after {
+    content: "✓";
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.margin-customize-kiri label {
+    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+/* Bagian kanan (harga) */
+.margin-customize-kanan {
+    margin-left: 10px;
+}
+
+.price-tag {
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+    min-width: 60px;
+    text-align: right;
+}
+
+.large-price {
+    color: #333;
+    font-weight: 600;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .margin-customize {
+        padding: 12px 10px;
+    }
+    
+    .margin-customize-kiri label {
+        font-size: 14px;
+    }
+    
+    .price-tag {
+        font-size: 14px;
+    }
+}

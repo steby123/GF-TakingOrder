@@ -1,0 +1,76 @@
+.customize-choice-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.customize-choice-modal .modal-content {
+    background: white;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.customize-choice-modal .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.customize-choice-modal .modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.customize-choice-modal .modal-header .close-modal {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.customize-choice-modal .modal-body p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.customize-choice-modal .option-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.customize-choice-modal .option-buttons button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.customize-choice-modal .option-buttons .same-item-btn {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.customize-choice-modal .option-buttons .customize-item-btn {
+    background-color: #ff6b81;
+    color: white;
+}
+
+.customize-choice-modal .option-buttons button:hover {
+    opacity: 0.9;
+}
+
+.hidden {
+    display: none !important;
+}

@@ -1,0 +1,142 @@
+04-08-2025 Steby
+- membuat tampilan Taking Order dengan reponsive
+- membuat apabila scroll bawah maka ada muncul button tulisan menu
+- membuat modal pop up apabila tombol menu di scroll bawah ditekan
+- membuat tombol menu di scroll bawah dapat di scroll ke atas
+
+04-09-2025 Steby
+- membuat apabila scroll bawah maka ada muncul Searchbar dan dapat cari nama menu
+- membuat apabila pencet tombol tambah atau add maka akan muncul belanja keranjang dan dapat di scroll ke atas
+- membuat apabila pencet tombol tambah atau add maka akan ganti tampilan menjadi bisa tambah atau kurang qty tersebut
+- membuat menu detail makanan dan harga dengan reponsive
+- membuat fungsi button modal pop up
+- membuat apabila di menu pencet gambar 2X maka akan ke halaman menu detail makanan untuk melihat detail menunya
+- membuat fungsi button ambil sendiri dan pengantaran simpan ke dala localstorage 
+- membuat fungsi button ambil sendiri dan pengantaran apabila di pilih maka ada tulisan warna putih dan background hijau
+- apabila close maka akan kembali ke tampilan awal
+
+04-10-2025 Steby
+- membuat template takingorderkeranjang.html dengan reponsive
+- membuat fungsi untuk mengambil data dari localstorage untuk tampilan data di takingorderkeranjang
+- memperbaiki design warna dan tulisan
+- membuat apabila menu-detail.html qty nya bisa masuk keranjang takingorderkeranjang dan takingorder
+- membuat apabila sudah pernah pesan menu dan refresh atau back ke halaman lain keranjang nya masih ada simpan menu tersebut
+- membuat menu tersimpan di takingorderkeranjang dalam berbentuk array
+
+04-11-2025 Steby
+- membuat ubah makanan apabila mau edit
+- membuat qty di takingorderkeranjang bisa di ubah qtnya
+- membuat menu-detail commentnya bisa tampil di takingorderkeranjang
+- tambah pesanan itu kembali ke menu utama
+- membuat icon share
+- membuat subtotal dan total di takingorderkeranjang
+- perbaiki background button menjadi warna hijau gelap
+- mengganti fontawesome 6 menjadi 4 dan simpan di dalam folder library
+- memperbaiki buat qty langsung ada ini + qty
+- memperbaiki membuat hilang fiture yg tidak pakai group order, order for later
+- memperbaiki membuat hilangi last order
+- memperbaiki membuat for you ganti Main Menu sesuai Katergori Menu
+
+04-12-2025 Steby
+- sudah memperbaiki hapus ubah buat ada jadi catatan
+- sudah membuat di bawah subtotal kasih ppn
+- sudah membuat buat apabila pesannya pilih delivery maka ada alat makan apabila makan sini gk ada alat makan
+- sudah membuat menu minuman dan tambahan
+
+04-14-2025 Steby
+- memperbaiki harga makanan apabila qty berubah harga makanannya juga berubah
+- sudah membuat button fungsi share clipboard dan whatsapp
+- sudah memperbaiki nama file
+- sudah memperbaiki kategori hapus pernah kamu beli dan orang orang pada doyan ini
+- sudah memperbaiki fungsi menu 
+- tambah menu minuman dan menu tambahan tampilan
+- sudah memperbaiki untuk pengantaran dan ambil sendiri ubah jadi Dine In dan Take Away ya
+- sudah memperbaiki catatan kalau sudah ada isi, tidak perlu muncul lagi tulisan catatannya
+- sudah memperbaiki utk harga per menunya besarin dikit, untuk ikon - + dan jumlahnya kecilin ya
+
+04-15-2025 Steby
+- sudah membuat customize dan beserta fungsinya
+- memperbaiki fontawesome 6 jadi 4
+
+04-16-2025 Steby
+- memperbaiki Searchbar
+- memperbaiki menu utama dan menu detail dan keranjang
+- memperbaiki comment ada logo edit dan bisa di edit
+- memperbaiki shopping menjadi sebuah icon
+- memperbaiki menu detail bisa customize dan masuk ke dalam keranjang
+- memperbaiki bug keranjang - qty +
+- memperbaiki apabila di menu tekan nama atau hara juga bisa pergi ke menu-detail
+- memperbaiki bug take away
+- memperbaiki font icon fas di ganti menjadi fa yang untuk share clipboard dan whatsapp
+- memperbaiki apabila search gk ada nama maka di info Menu yang kamu cari tidak ada di menu ini
+- membuat apabila sudah simpan keranjang maka ada loading dan info Pesanan Anda telah berhasil dikirim ke restoran.
+- memperbaiki apabila menu paling laku dan menu lainnya itu saling berhubungan
+- membuat apabila keranjang tidak ada orderan maka ada info pesanan kosong
+
+04-17-2025 Steby
+- mengganti tampilan takingorderkeranjang.html
+- mengganti tampilan notif keranjang 
+- sudah memperbaiki apabila ada tulisan Customizable maka dia ke menu detail untuk customize
+- memperbaiki bug di menu-detail
+- memperbaiki tulisan semua Rp nya satuin dengan harganya
+- memperbaiki huruf g bawahnya ketimpa kemudian utk poin pertama catatan itu gk rata dengan yg di bawah
+- memperbaiki search ada tombol delete beserta dengan fungsinya
+- keranjang punya rekomen di buang aja
+
+
+04-19-2025 Steby 
+- sudah memperbaiki group menu langsung di buat muncul aja tanpa di scroll
+- tulisan tambah pesanan di ganti menjadi button
+- sudah membuat grouping filter 2(paling laku, rekomen)
+
+04-21-2025 Steby
+- memperbaiki tampilan index.html
+- memperbaiki bug dan logic fungsi menu-detail 
+
+04-22-2025 Steby
+- membuat tampilan login.html dengan reponsive dan beserta dengan fungsinya
+- membuat fungsi login apabila mau buat akun buat di register dan bisa login setelah register
+- membuat register nama tidak boleh sama dan confirm password harus sama dengan password apabila tidak sama maka ada info
+- membuat nama tidak boleh lebih kecil dari 4 dan password tidak boleh lebih kecil dari 7
+- apabila login kosong maka ada info belum punya akun segera register terhadulu
+- apabila sudah login maka di index ada username yang di login 
+- apabila belum login maka di index nama nya guess
+- membuat apabila saya pencet tambah dia langsung ke menu-detail dan tidak tambah ke dalam localstoragenya
+
+04-23-2025 Steby
+- memperbaiki design customize punya custom
+- memperbaiki tampilan notif keranjang menu-detail
+- memperbaiki menu-detail fungsinya apabila pencet keranjang datanya baru masuk ke localstorage
+- memperbaiki tampilan notif keranjang index.html
+- memperbaiki bug edit catatan tanpa di refresh sudah muncul pensil
+- memperbaiki apabila catatan di edit hilang tulisannya maka tulisan catatan ada kembali
+- memperbaiki tampilan login jangan terlalu polos dan fungsinya
+
+04-24-2025 Steby
+- memperbaki  bisa guess. bisa member. jika member baru login. jika guess masuk index.html
+- tolong buat ada tombol balik ke guess
+- memperbaiki paling laku atau rekomendasi fungsinya
+- sudah mengganti design notif menu-detail keranjang dan memperbaiki fungsinya
+- Sudah diperbaiki agar apabila pesanan memiliki nama makanan yang sama namun berbeda topping atau komentar, pesanan tersebut akan tercatat secara terpisah
+
+04-25-2025 Steby
+- tulisan rangkuman pesanan di ganti menjadi keranjang 
+- ikon take away di ganti menjadi ikon paper bag dan dine ikon nya di ganti menjadi sendok garpu
+
+04-26-2025 Steby
+- di login.html ada buat untuk kembali ke index
+- untuk hasil search langsung tampilin di kategori yang hasil search, jadi kek yang menu makanan & minuman itu kosong tidak perlu muncul lagi dan untuk paling laku juga tidak perlu muncul lagi
+
+04-28-2025 Steby
+- memperbaiki apabila website liat di ios atau android tidak terliat zoom 
+
+04-29-2025 Steby
+- memperbaiki fungsi dari bug menu-detail
+- memperbaiki tampilan index.html
+- menambahkan button delete di comment keranjang dan berserta dengan fungsinya
+- mengganti tampilan pengantaran atau makan di sini
+- sudah memperbaiki bug modal comment keranjang
+- menambahkan delete button dan fungsinya
+- sudah memperbaiki fungsi bug di menu detail
+- sudah memperbaiki html ke php 
+- membuat modal pesan untuk yang Customizable apabila sudah pernah di pesan dan beserta dengan fungsinya

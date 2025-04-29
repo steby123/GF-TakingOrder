@@ -1,0 +1,54 @@
+.search-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    z-index: 100;
+    box-sizing: border-box;
+    gap: 10px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+#search-bar{
+    display: none;
+}
+
+.search-bar-kiri {
+    flex-grow: 1; 
+}
+
+.search-bar-kanan {
+    flex-shrink: 0;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+
+.search-bar-kanan button {
+    padding: 10px 15px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.not-found-message {
+    display: none;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+    grid-column: 1 / -1; 
+}
